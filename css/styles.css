@@ -1,0 +1,152 @@
+:root {
+    --color-iris: #4d5ae5;
+    --color-ocean: #404bbf;
+    --color-navy-blue: #2e2f42;
+    --color-green: #31d0aa;
+    --color-slate: #434455;
+    --color-light-slate: #8e8f99;
+    --color-cornflower: #e7e9fc;
+    --color-cloud: #f4f4fd;
+    --color-navy-blue-modal: #2e2f42;
+    --color-grey: #2e2f42;
+    --color-white: #ffffff;
+    --color-dairy: #fcfcfc;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-slate);
+    background-color: var(--color-white);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none
+}
+
+.hidden {
+    display: none;
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    color: var(--color-navy-blue);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.accent {
+    color: var(--color-iris);
+}
+
+
+.link {
+    color: var(--color-navy-blue);
+}
+
+.site-nav .link {
+    font-weight: 500;
+}
+
+.link:hover {
+    color: var(--color-ocean);
+}
+
+.link:focus {
+    text-decoration: underline;
+    color: var(--color-ocean);
+}
+
+.address {
+    font-style: normal;
+}
+
+.address .link {
+    color: var(--color-slate);
+}
+
+.address .link:hover {
+    color: var(--color-ocean);
+}
+
+.address .link:focus {
+    text-decoration: underline;
+    color: var(--color-ocean);
+}
+
+.section {
+    background-color: var(--color-navy-blue);
+}
+
+.main-title {
+    color: var(--color-white);
+    text-align: center;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+}
+
+.button {
+    color: var(--color-white);
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    background-color: var(--color-iris);
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--color-ocean);
+}
+
+.section-team {
+    background-color: var(--color-cloud);
+}
+
+.title {
+    color: var(--color-navy-blue);
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.team-card {
+    background-color: var(--color-white);
+}
+
+.section-title {
+    color: var(--color-navy-blue);
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.section-text {
+    color: var(--color-slate);
+}
+
+.footer {
+    background-color: var(--color-navy-blue);
+}
+
+.footer .logo {
+    color: var(--color-cloud);
+}
+
+.footer .section-text {
+    color: var(--color-cloud);
+}

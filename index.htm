@@ -21,63 +21,73 @@
 	</head>
 
 	<body>
-		<!-- Site cap -->
-		<header>
-			<nav>
-				<a href="./index.html">WebStudio</a>
+		<!--Site cap-->
+		<header class="header">
+			<!--Navigation-->
+			<nav class="site-nav">
+				<a class="logo" href="./index.html"
+					><span class="accent">Web</span>Studio</a
+				>
 
 				<ul>
-					<li><a href="">Studio</a></li>
-					<li><a href="">Portfolio</a></li>
-					<li><a href="">Contacts</a></li>
+					<li><a class="link" href="./index.html">Studio</a></li>
+					<li><a class="link" href="">Portfolio</a></li>
+					<li><a class="link" href="">Contacts</a></li>
 				</ul>
 			</nav>
 
-			<address>
+			<!--Address-->
+			<address class="address">
 				<ul>
 					<li>
-						<a href="mailto:info@devstudio.com">info@devstudio.com</a>
+						<a class="link" href="mailto:info@devstudio.com" target="_blank"
+							>info@devstudio.com</a
+						>
 					</li>
-					<li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+					<li>
+						<a class="link" href="tel:+110001111111" target="_blank"
+							>+11 (000) 111-11-11</a
+						>
+					</li>
 				</ul>
 			</address>
 		</header>
 
+		<!--main-content-->
 		<main>
-			<!-- Order service -->
-			<section>
-				<h1>Effective Solutions for Your Business</h1>
-				<button type="button">Order Service</button>
+			<!--Order service-->
+			<section class="section">
+				<h1 class="main-title ">Effective Solutions for Your Business</h1>
+				<button class="button" type="button">Order Service</button>
 			</section>
-
-			<!-- Our properties -->
-			<section>
-				<h2>Hidden</h2>
+			<!--Our properties-->
+			<section class="section-features">
+				<h2 class="title hidden">Features</h2>
 				<ul>
 					<li>
-						<h3>Strategy</h3>
-						<p>
+						<h3 class="section-title">Strategy</h3>
+						<p class="section-text">
 							Our goal is to identify the business problem to walk away with the
 							perfect and creative solution.
 						</p>
 					</li>
 					<li>
-						<h3>Punctuality</h3>
-						<p>
+						<h3 class="section-title">Punctuality</h3>
+						<p class="section-text">
 							Bring the key message to the brand's audience for the best price
 							within the shortest possible time.
 						</p>
 					</li>
 					<li>
-						<h3>Diligence</h3>
-						<p>
-							Research and confirm brands with the strongest digital growth
-							opportunities and minimize risk.
+						<h3 class="section-title">Diligence</h3>
+						<p class="section-text">
+							Research and confirm brands that present the strongest digital
+							growth opportunities and minimize risk.
 						</p>
 					</li>
 					<li>
-						<h3>Technologies</h3>
-						<p>
+						<h3 class="section-title">Technologies</h3>
+						<p class="section-text">
 							Design practice focused on digital experiences. We bring forth a
 							deep passion for problem-solving.
 						</p>
@@ -86,104 +96,123 @@
 			</section>
 
 			<!-- Team composition-->
-			<section>
-				<h2>Our Team</h2>
+			<section class="section-team">
+				<h2 class="title">Our Team</h2>
 				<ul>
-					<li>
+					<li class="team-card">
 						<img
 							src="./images/image1.jpg"
 							alt="photo Mark Guerrero"
+							height="260"
 							width="264" />
-						<h3>Mark Guerrero</h3>
-						<p>Product Designer</p>
+						<h3 class="section-title">Mark Guerrero</h3>
+						<p class="section-text">Product Designer</p>
 					</li>
-					<li>
-						<img src="./images/image2.jpg" alt="photo Tom Ford" width="264" />
-						<h3>Tom Ford</h3>
-						<p>Frontend Developer</p>
+					<li class="team-card">
+						<img
+							src="./images/image2.jpg"
+							alt="photo Tom Ford"
+							height="260"
+							width="264" />
+						<h3 class="section-title">Tom Ford</h3>
+						<p class="section-text">Frontend Developer</p>
 					</li>
-					<li>
+
+					<li class="team-card">
 						<img
 							src="./images/image3.jpg"
 							alt="photo Camila Garcia"
+							height="260"
 							width="264" />
-						<h3>Camila Garcia</h3>
-						<p>Marketing</p>
+						<h3 class="section-title">Camila Garcia</h3>
+						<p class="section-text">Marketing</p>
 					</li>
-					<li>
+					<li class="team-card">
 						<img
 							src="./images/image4.jpg"
 							alt="photo Daniel Wilson"
+							height="260"
 							width="264" />
-						<h3>Daniel Wilson</h3>
-						<p>UI Designer</p>
+						<h3 class="section-title">Daniel Wilson</h3>
+						<p class="section-text">UI Designer</p>
 					</li>
 				</ul>
 			</section>
 
 			<!--Our Portfolio-->
-
-			<section class="itemfour">
-				<h2 class="our-two">Our Portfolio</h2>
+			<section class="section-portfolio">
+				<h2 class="title">Our Portfolio</h2>
 				<ul>
 					<li>
 						<img
-							src="./images/imgq.jpg"
-							alt="Banking"
+							class="img"
+							src="./images/image5.jpg"
+							alt="application layout"
 							width="360"
 							height="300" />
-						<h3 class="port-t">Banking App</h3>
-						<p class="port-p">App</p>
+						<h3 class="section-title">Banking App</h3>
+						<p class="section-text">App</p>
 					</li>
 					<li>
 						<img
-							src="./images/imgw.jpg"
-							alt="Cashless"
+							class="img"
+							src="./images/image6.jpg"
+							alt="cashless payment"
 							width="360"
 							height="300" />
-						<h3 class="port-t">Cashless Payment</h3>
-						<p class="port-p">Marketing</p>
+						<h3 class="section-title">Cashless Payment</h3>
+						<p class="section-text">Marketing</p>
 					</li>
 					<li>
 						<img
-							src="./images/imge.jpg"
-							alt="Meditation"
+							class="img"
+							src="./images/image7.jpg"
+							alt="laptop and smartphone"
 							width="360"
 							height="300" />
-						<h3 class="port-t">Meditation App</h3>
-						<p class="port-p">App</p>
-					</li>
-					<li>
-						<img src="./images/imgr.jpg" alt="taxi" width="360" height="300" />
-						<h3 class="port-t">Taxi Service</h3>
-						<p class="port-p">Marketing</p>
+						<h3 class="section-title">Meditation App</h3>
+						<p class="section-text">App</p>
 					</li>
 					<li>
 						<img
-							src="./images/imgt.jpg"
-							alt="screen"
+							class="img"
+							src="./images/image8.jpg"
+							alt="taxi service"
 							width="360"
 							height="300" />
-						<h3 class="port-t">Screen Illustrations</h3>
-						<p class="port-p">Design</p>
+						<h3 class="section-title">Taxi Service</h3>
+						<p class="section-text">Marketing</p>
 					</li>
 					<li>
 						<img
-							src="./images/imgy.jpg"
-							alt="online"
+							class="img"
+							src="./images/image9.jpg"
+							alt="screen illustrations"
 							width="360"
 							height="300" />
-						<h3 class="port-t">Online Courses</h3>
-						<p class="port-p">Marketing</p>
+						<h3 class="section-title">Screen Illustrations</h3>
+						<p class="section-text">Design</p>
+					</li>
+					<li>
+						<img
+							class="img"
+							src="./images/image10.jpg"
+							alt="girl in headphones"
+							width="360"
+							height="300" />
+						<h3 class="section-title">Online Courses</h3>
+						<p class="section-text">Marketing</p>
 					</li>
 				</ul>
 			</section>
 		</main>
 
-		<!-- Contacts -->
-		<footer>
-			<a href="./index.html">WebStudio</a>
-			<p>
+		<!--Contacts-->
+		<footer class="footer">
+			<a class="logo" href="./index.html"
+					><span class="accent">Web</span>Studio</a
+				>
+			<p class="section-text">
 				Increase the flow of customers and sales for your business with digital
 				marketing & growth solutions.
 			</p>
